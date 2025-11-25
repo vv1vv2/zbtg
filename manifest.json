@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "网易有道词典单词本一键导出",
+  "version": "1.2",
+  "description": "一键导出你在网易有道词典（dict.youdao.com）背过的所有单词，支持导入Anki、扇贝、欧路等",
+  "icons": {
+    "128": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "导出网易有道单词本"
+  },
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://dict.youdao.com/*"
+  ]
+}
